@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*---gobal----*/
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	outline:0;
+	fontsize:100%;
+	vertical-align: baseline;
+	
+}
+
+
+
+html{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	
+}
+
+body{
+	width:100%;
+	background-color: #1A1F24;
+	
+}
+
+
+.wrapper{
+	
+	width: 90%;
+	margin: 0 auto;
+}
+
+h1,h2,h3,p{
+	
+	color: white;
+
+
+}
+
+
+h1{
+	
+	font-weight: 700;
+}
+
+p{
+	font-size:18px;
+	line-height: 24px;
+	
+}
+
+
+.green{
+	color: #88D59D;
+}
+
+/*---nav----*/
+
+nav{
+	
+	height: 100px;
+	line-height: 100px;
+	
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+.rightnav{
+	float: right;
+	
+}
+
+
+
+/*---header----*/
+
+header{
+	
+margin: 200px auto 300px auto;
+	width: 35%;
+	
+
+	
+}
+
+
+
+
+header h1{
+	width: 100%;
+	font-size:65px;
+	margin: auto;
+	
+	
+	
+	
+ 
+}
+
+/*---work----*/
+.work{
+	text-align: center;
+	width: 100%;
+	
+	
+}
+
+.work a img{ 
+	margin:1%;
+	width:45%;
+}
+
+/*---about me----*/
+.aboutme{
+	
+	margin:200px 0 200px 0;
+}
+
+.aboutme h2{
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 30px;
+}
+
+.aboutme p{ width:80%;
+margin: auto;
+line-height: 1.3em;}
+
+/*---side projects----*/
+
+
+
+.sideprojects{
+	width:100%;
+	text-align: center;
+}
+
+.sideprojects h3{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+
+.sideprojects a img{
+	margin: 1%;
+	width: 92%
+	
+	
+}
+
+.sideprojects .smallgroup a img{
+	
+	margin: 1%;
+	width: 29%;
+}
+/*---footer----*/
+
+
+/*---responsive----*/
+
+@media only screen and (max-width: 991px) {
+	
+	header{background-color: brown;
+	margin: 200px auto 200px auto;}
+	
+	
+	header h1{ font-size: 50px;
+	margin: auto;}
+	
+	
+} 
+
+
+
+
+
+@media only screen and (max-width: 777px) {
+	
+	header{background-color: green;
+	margin: 100px auto 100px auto;}
+	
+	
+	header h1{ font-size: 2.5em;
+	margin: auto;}
+	
+	
+	.work a img{
+		margin:2%;
+		width:96%;
+	}
+	
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
